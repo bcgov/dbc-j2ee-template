@@ -4,7 +4,7 @@ lightweight templates for Deployment of app stack requires Oracle Java 8+ and To
 `APPBIN` Required Envirionment Variable for `docker build` or `oc new-app`
 
 # Why 
-regular oracle java + jboss + centos image size usually over 500Mb, this basic image size is around 100Mb.
+regular oracle java + jboss + centos/rhel image size usually over 500Mb, this basic image size is around 100Mb.
 
 # How to use
 1. fork this repo and add required custom configurations like `app.properties` files
