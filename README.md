@@ -1,5 +1,6 @@
 # dbc-j2ee-template
-lightweight templates for Deployment of Oracle Java 8+ and Tomcat 8.5+ in container, works with any OCP, Docker platform
+lightweight templates for Deployment of app stack requires Oracle Java 8+ and Tomcat 8.5+ Servlet, works with any OCP, Docker platform.
+
 `APPBIN` Required Envirionment Variable for `docker build` or `oc new-app`
 
 # How to use
