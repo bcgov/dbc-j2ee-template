@@ -5,7 +5,7 @@ lightweight templates for Deployment of Oracle Java 8+ and Tomcat 8.5+ in contai
 # How to use
 1. fork this repo and add required custom configurations like `app.properties` files
 
-2. set APPBIN to any war file you need to deploy, can be repository URL e.g 
+2. set `APPBIN` to any war file repository URL that you need to deploy, e.g 
  ```docker build --build-args "APPBIN=https://developer.gov.bc.ca/artifactory/libs-release-local/ca/bc/gov/${appname}/${version}/${appname}-{version}.war" .```
  or
  ```oc new-app $YourRepoUrlWithThisDockerfile -e APPBIN=https://developer.gov.bc.ca/artifactory/libs-release-local/ca/bc/gov/${appname}/${version}/${appname}-{version}.war --strategy=docker```
