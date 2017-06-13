@@ -23,4 +23,4 @@ regular oracle java + jboss + centos/rhel image size usually over 500Mb, this ba
 ### short anwser: 
 use Dockerfile_j2ee file which include TomEE, here is the [comparison for Tomcat vs TomEE](http://tomee.apache.org/comparison.html) 
 ### long anwser:
-lots of j2ee function can be archived in OCP or Kubernetes, you should use OCP or Kubernetes to address those common functions first, and the rest can be easily done via Tomcat.
+lots of j2ee functions can be achieved in OCP or Kubernetes, you should use OCP or Kubernetes to address those common functions first, and the rest can be easily done via Tomcat.
