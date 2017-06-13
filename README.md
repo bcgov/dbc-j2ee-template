@@ -16,3 +16,11 @@ regular oracle java + jboss + centos/rhel image size usually over 500Mb, this ba
  
 # Notes:
  default deployment context path would be `/`, if you need to change to different context path, ensure you have proper `context.xml` in your war file.
+
+# FAQ:
+## where is J2EE? Tomcat is not full J2EE servlet. 
+
+### short anwser: 
+use Dockerfile_j2ee file which include TomEE, here is the [comparison for Tomcat vs TomEE](http://tomee.apache.org/comparison.html) 
+### long anwser:
+lots of j2ee function can be archived in OCP or Kubernetes, you should use OCP or Kubernetes to address those common functions first, and the rest can be easily done via Tomcat.
