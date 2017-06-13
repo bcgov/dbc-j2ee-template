@@ -17,7 +17,7 @@ regular oracle java + jboss + centos/rhel image size usually over 500Mb, this ba
 # Notes:
  default deployment context path would be `/`, if you need to change to different context path, ensure you have proper `context.xml` in your war file.
 
-# FAQ:
+# FAQ
 ## where is J2EE? Tomcat is not full J2EE servlet. 
 
 ### short anwser: 
